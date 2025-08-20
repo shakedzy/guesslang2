@@ -46,9 +46,9 @@ def long_description(filename: str, end_tag: str, doc_url: str) -> str:
 
 setup(
     # Package info
-    name='guesslang',
-    author='Y. SOMDA',
-    url='https://github.com/yoeo/guesslang',
+    name='guesslang2',
+    author='Y. SOMDA, S. ZYCHLINSKI',
+    url='https://github.com/shakedzy/guesslang2',
     description='Detect the programming language of a source code',
     long_description=long_description(
         'docs/contents.rst',
@@ -71,13 +71,13 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     # Install setup
-    version=version('guesslang'),
+    version=version('guesslang2'),
     platforms='any',
     packages=find_packages(exclude=['tests', 'tools']),
     install_requires=Path('requirements.txt').read_text(),
     zip_safe=False,
     include_package_data=True,
-    entry_points={'console_scripts': ['guesslang = guesslang.__main__:main']},
+    entry_points={'console_scripts': ['guesslang2 = guesslang2.__main__:main']},
     tests_require=Path('requirements-dev.txt').read_text(),
     setup_requires=['pytest-runner']
 )

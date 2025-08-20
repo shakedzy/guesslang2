@@ -7,7 +7,7 @@ from statistics import mean, stdev
 from tempfile import TemporaryDirectory
 from typing import List, Tuple, Optional
 
-from guesslang import model
+from guesslang2 import model
 
 
 LOGGER = logging.getLogger(__name__)

@@ -3,8 +3,8 @@ import tempfile
 
 import pytest
 
-from guesslang import Guess, GuesslangError
-from guesslang.model import DATASET
+from guesslang2 import Guess, GuesslangError
+from guesslang2.model import DATASET
 
 
 C_CODE = """

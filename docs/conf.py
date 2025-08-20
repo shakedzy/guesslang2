@@ -75,8 +75,8 @@ html_favicon = '_static/images/favicon.png'
 html_css_files = ['css/custom.css']
 html_context = {
     'display_github': True,
-    'github_user': 'yoeo',
-    'github_repo': 'guesslang',
+    'github_user': 'shakedzy',
+    'github_repo': 'guesslang2',
     'github_version': 'master/docs/',
 }
 html_theme_options = {'collapse_navigation': False}

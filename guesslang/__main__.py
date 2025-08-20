@@ -6,8 +6,8 @@ import logging.config
 import sys
 from typing import Any, TextIO, Dict
 
-from guesslang.guess import Guess, GuesslangError
-from guesslang.model import DATASET
+from guesslang2.guess import Guess, GuesslangError
+from guesslang2.model import DATASET
 
 
 LOGGER = logging.getLogger(__name__)
